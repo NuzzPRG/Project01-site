@@ -1,0 +1,65 @@
+complementar: #CB21FF, #96BF49, #B1FF21, #954FAA, #6F8050.
+shorthand para font(ordem): font-style, font-weight, font-size e font-family.
+
+    /* Config globl. das CSS */
+    /*
+    Medidas absolutas: cm, mm, in(polegada), px, pt, pc.
+
+    Medidas relativas: em, ex, rem vh, vw, % normalmente < em e px
+    */
+shorthand border(ordem): width, style e color. (auto=center)
+
+shorthand padding(ordem): top, right, bottom e left. (auto=center)
+
+shorthand margin(ordem): top, right, bottom e left. (auto=center)
+
+
+*Na lista a seguir, coloquei alguns elementos HTML que são block-level:
+<address> <article> <aside> <blockquote> <canvas> <dd>
+<div> <dl> <dt> <fieldset> <figcaption> <figure>
+<footer> <form> <h1> - <h6> <header> <hr> <li>
+<main> <nav> <noscript> <ol> <p> <pre>
+<section> <table> <tfoot> <ul> <video>*
+
+*Abaixo, listei alguns elementos inline-level usados pela HTML:
+<a> <abbr> <acronym> <b> <bdo> <br>
+<button> <cite> <code> <dfn> <em> <i>
+<img> <input> <kbd> <label> <map> <object>
+<output> <q> <samp> <script> <select> <small>
+<span> <strong> <sub> <textarea> <tt> <var>*
+
+-----------------------------------------------------------
+Header
+Cria áreas relativas a cabeçalhos. Pode ser o cabeçalho principal de um site ou até
+mesmo o cabeçalho de uma seção ou artigo. Normalmente inclui títulos <h1> - <h6>
+e subtítulos. Podem também conter menus de navegação.
+Nav
+Define uma área que possui os links de navegação pela
+estrutura de páginas que vão compor o website. Um
+<nav> pode estar dentro de um <header>.
+Main
+É um agrupador usado para delimitar o conteúdo
+principal do nosso site. Normalmente concentra as
+seções, artigos e conteúdos periféricos.
+Section
+Cria seções para sua página. Ela pode conter o conteúdo diretamente no seu corpo ou
+dividir os conteúdos em artigos com conteúdos específicos. Segundo a documentação
+oficial da W3C, “uma seção é um agrupamento temático de conteúdos, tipicamente
+com um cabeçalho”.
+Article
+Um artigo é um elemento que vai conter um conteúdo que pode ser lido de forma
+independente e dizem respeito a um mesmo assunto. Podemos usar um <article>
+para delimitar um post de blog ou fórum, uma notícia, etc.
+Aside
+Delimita um conteúdo periférico e complementar ao conteúdo principal de um artigo
+ou seção. Normalmente um conteúdo <aside> está posicionado ao lado de um
+determinado texto ou até mesmo no meio dele, exatamente como fizemos no bloco de
+texto apresentado anteriormente, falando sobre “MÚLTIPLOS NÍVEIS”.
+Footer
+Cria um rodapé para o site inteiro, seção ou artigo. É um conteúdo que não faz parte
+diretamente do conteúdo nem é um conteúdo periférico (o que caracterizaria um
+<aside>), mas possui informações sobre autoria do conteúdo, links adicionais, mapa
+do site, documentos relacionados.
+A seguir, vou criar uma proposta de estrutura para um projeto de site. Não tome ela
+como a única possibilidade de criar o posicionamento de elementos de agrupamento
+semântico.
